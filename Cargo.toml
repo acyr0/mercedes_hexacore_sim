@@ -1,0 +1,13 @@
+[package]
+name = "mercedes_sim"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+sol_erda = []
+table_output = []
+
+[dependencies]
+cfg-if = "1.0.0"
+enum-map = "2.6.0"
+lazy_static = "1.4.0"
